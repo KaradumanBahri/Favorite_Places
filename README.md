@@ -28,6 +28,13 @@
 - Understanding the frequent use of third-party packages in Flutter applications.
 - Ensuring proper usage by checking package documentation.
 
+## Google Maps API Key
+
+To use the application, create a Google Maps API Key on Google Cloud Platform, and then check the relevant locations in your application's AndroidManifest.xml (Android) or Info.plist (iOS) files.
+
+Next, open the `place_detail.dart` and `location_input.dart` files in your project, and replace the `YOUR_KEY` sections in these files with your own Google Maps API Key.
+
+
 
 ## Dependencies
 
